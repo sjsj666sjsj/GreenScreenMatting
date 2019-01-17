@@ -10,15 +10,27 @@
 using namespace std;
 using namespace cv;
 
+int x = 0, y = 0, z=25;
+double ratio=0.25;
+Point3i loc;
+void loc_change(int ,void *)
+{
+    loc.x = x;
+    loc.y = y;
+    ratio = z / 100.0;
+}
+
 void ReadConfig(double& ratio, Point2i& loc, bool& save_video)
 {
     FileStorage fs("../config/config.yml", FileStorage::READ);
     assert(fs.isOpened());
+
     fs["ratio"] >> ratio;
-    // cout << ratio << endl;
+    cout << ratio << endl;
     int tmp_x, tmp_y;
     fs["img_loc_x"] >> tmp_x;
     fs["img_loc_y"] >> tmp_y;
+
     if(tmp_x < 0 || tmp_y < 0)
     {
         loc.x = 0;
@@ -29,6 +41,7 @@ void ReadConfig(double& ratio, Point2i& loc, bool& save_video)
         loc.x = tmp_x;
         loc.y = tmp_y;
     }
+
     save_video = ((int)fs["save_video"] == 0) ? false : true;
     // cout << save_video << endl;
     // cout << loc << endl;
@@ -40,10 +53,14 @@ int main(int argc, char **argv)
     VideoCapture capture_mix("../videos/cause_way.mp4");
     ColorMatting matting;
 
-    double ratio;
-    Point2i loc;
     bool save_video;
-    ReadConfig(ratio, loc, save_video);
+   // ReadConfig(ratio, loc, save_video);
+
+    namedWindow("video",WINDOW_AUTOSIZE);
+    cv::createTrackbar("X：","video",&x,400, loc_change);
+    cv::createTrackbar("Y：","video",&y,200, loc_change);
+    cv::createTrackbar("ratio：","video",&z,100, loc_change);
+    //cv::createTrackbar("ratio：","video",&ratio,1);
 
     VideoWriter writer;
     cout << save_video << endl;
@@ -74,10 +91,12 @@ int main(int argc, char **argv)
 
 		waitKey(10);
 
-        if(save_video)
+        //if (1)
+        // if(save_video)
         {
             writer.write(frame_mix);
         }
 	}
+
     return 0;
 }

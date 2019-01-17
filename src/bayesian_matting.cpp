@@ -14,12 +14,12 @@ using namespace std;
 
 Mat BayesianMatting::Process(const Mat& ori_img, Mat& trimap)
 {
-    long cur_time = getTickCount();
+    long cur_time = getTickCount();//返回操作时间
     if(trimap.channels() == 3)
         cvtColor(trimap, trimap, CV_BGR2GRAY);
 
     Mat foreground_mask;
-    threshold(trimap, foreground_mask, 200, 255, THRESH_BINARY);
+    threshold(trimap, foreground_mask, 200, 255, THRESH_BINARY);//图像的二值化,就是将图像上的像素点的灰度值设置为0或255
     Mat foreground;
     ori_img.copyTo(foreground, foreground_mask);
 
@@ -127,11 +127,17 @@ Mat BayesianMatting::Process(const Mat& ori_img, Mat& trimap)
     }
 
     cout << "Baysian matting Elasped " << (getTickCount() - cur_time) / getTickFrequency() << " s." << endl;
-    // imshow("foreground_after", foreground);
+     imshow("foreground_after", foreground);
     // imshow("trimap", uncertain_alpha_mat);
     // waitKey(0);
 
-    return foreground;
+    return uncertain_alpha_mat;
+    //return foreground;
+}
+
+cv::Mat MixImage(const cv::Mat& ori_img, cv::Mat& trimap, cv::Mat& bg, cv::Point2i loc)
+{
+    
 }
 
 void BayesianMatting::calcMeanAndCovMatrix(const cv::Mat& img, const cv::Mat& mask, Eigen::Vector3d& mean_vec, Eigen::Matrix3d& cov)

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcolor_matting.a  CMakeFiles/color_matting.dir/src/color_matting.cpp.o
+/usr/bin/ranlib libcolor_matting.a

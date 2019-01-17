@@ -1,0 +1,7 @@
+/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/CMakeFiles/color_demo.dir
+/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/CMakeFiles/color_matting.dir
+/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/CMakeFiles/bayesian_matting.dir
+/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/CMakeFiles/baysian_demo.dir
+/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/CMakeFiles/trimap_generator.dir

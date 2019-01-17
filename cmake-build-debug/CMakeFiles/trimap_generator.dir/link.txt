@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtrimap_generator.a  CMakeFiles/trimap_generator.dir/src/trimap_generator.cpp.o
+/usr/bin/ranlib libtrimap_generator.a

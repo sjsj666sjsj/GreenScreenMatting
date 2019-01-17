@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="green_screen_matting"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\opt\ros\kinetic\;CMake Files\..\..\..\..\opt\ros\kinetic\share\;CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\usr\lib\cmake\eigen3\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="color_demo">
+				<Option output="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/color_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/shuauijun/Codes/GreenScreenMatting/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 color_demo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="color_demo/fast">
+				<Option output="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/color_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/shuauijun/Codes/GreenScreenMatting/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 color_demo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="color_matting">
+				<Option output="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/libcolor_matting.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/shuauijun/Codes/GreenScreenMatting/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 color_matting"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="color_matting/fast">
+				<Option output="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/libcolor_matting.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/shuauijun/Codes/GreenScreenMatting/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 color_matting/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bayesian_matting">
+				<Option output="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/libbayesian_matting.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/shuauijun/Codes/GreenScreenMatting/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 bayesian_matting"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bayesian_matting/fast">
+				<Option output="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/libbayesian_matting.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/shuauijun/Codes/GreenScreenMatting/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 bayesian_matting/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="baysian_demo">
+				<Option output="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/baysian_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/shuauijun/Codes/GreenScreenMatting/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 baysian_demo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="baysian_demo/fast">
+				<Option output="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/baysian_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/shuauijun/Codes/GreenScreenMatting/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 baysian_demo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trimap_generator">
+				<Option output="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/libtrimap_generator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/shuauijun/Codes/GreenScreenMatting/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 trimap_generator"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trimap_generator/fast">
+				<Option output="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/libtrimap_generator.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/shuauijun/Codes/GreenScreenMatting/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev"/>
+					<Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 trimap_generator/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/shuauijun/Codes/GreenScreenMatting/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/shuauijun/Codes/GreenScreenMatting/src/bayesian_matting.cpp">
+			<Option target="bayesian_matting"/>
+		</Unit>
+		<Unit filename="/home/shuauijun/Codes/GreenScreenMatting/src/baysian_demo.cpp">
+			<Option target="baysian_demo"/>
+		</Unit>
+		<Unit filename="/home/shuauijun/Codes/GreenScreenMatting/src/color_demo.cpp">
+			<Option target="color_demo"/>
+		</Unit>
+		<Unit filename="/home/shuauijun/Codes/GreenScreenMatting/src/color_matting.cpp">
+			<Option target="color_matting"/>
+		</Unit>
+		<Unit filename="/home/shuauijun/Codes/GreenScreenMatting/src/trimap_generator.cpp">
+			<Option target="trimap_generator"/>
+		</Unit>
+		<Unit filename="/home/shuauijun/Codes/GreenScreenMatting/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/shuauijun/Codes/GreenScreenMatting/../../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\"/>
+		</Unit>
+		<Unit filename="/home/shuauijun/Codes/GreenScreenMatting/../../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\"/>
+		</Unit>
+		<Unit filename="/home/shuauijun/Codes/GreenScreenMatting/../../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\"/>
+		</Unit>
+		<Unit filename="/home/shuauijun/Codes/GreenScreenMatting/../../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\"/>
+		</Unit>
+		<Unit filename="/home/shuauijun/Codes/GreenScreenMatting/../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbayesian_matting.a  CMakeFiles/bayesian_matting.dir/src/bayesian_matting.cpp.o
+/usr/bin/ranlib libbayesian_matting.a

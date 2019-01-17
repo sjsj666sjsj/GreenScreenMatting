@@ -11,10 +11,13 @@ using namespace cv;
 Mat ColorMatting::Process(Mat& input_img)
 {
     vector<Mat> frame_bgrs;
-    split(input_img, frame_bgrs);
+    split(input_img, frame_bgrs);//分离通道
     
     Mat foreground_mask = Mat::zeros(input_img.size(), CV_8UC1);
-    Mat green(input_img.size(), CV_8UC3, Scalar(43, 173, 23));
+    //Mat green(input_img.size(), CV_8UC3, Scalar(43, 173, 23));
+    Scalar color = input_img.at<Vec3b>(10, 10);
+    Mat green(input_img.size(), CV_8UC3, color);
+
     Mat diff_img;
     absdiff(input_img, green, diff_img);
     vector<Mat> diff_img_bgr;
@@ -28,9 +31,17 @@ Mat ColorMatting::Process(Mat& input_img)
     Mat bg;
     bitwise_or(b_thres, g_thres, bg);
     bitwise_or(bg, r_thres, foreground_mask);
-    
+
+    //imshow("before erosion",foreground_mask);
+
+
     Mat erodeStruct = getStructuringElement(MORPH_ELLIPSE,Size(4,4));
-    erode(foreground_mask, foreground_mask, erodeStruct); 
+    erode(foreground_mask, foreground_mask, erodeStruct);
+
+    Mat blankpic = Mat::zeros(input_img.size(), CV_8UC3);
+    input_img.copyTo(blankpic, foreground_mask);
+    imshow("after erosion",blankpic);
+    //imshow("after erosion",foreground_mask);
 
     return foreground_mask;   
 }

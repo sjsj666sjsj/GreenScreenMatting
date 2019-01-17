@@ -17,6 +17,8 @@ include_directories(
 add_library(color_matting src/color_matting.cpp)
 target_link_libraries(color_matting ${OpenCV_LIBS})
 
+
+
 add_library(bayesian_matting src/bayesian_matting.cpp)
 target_link_libraries(bayesian_matting ${OpenCV_LIBS})
 
